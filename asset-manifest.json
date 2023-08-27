@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/reactentrega/static/css/main.a5bfbe08.css",
-    "main.js": "/reactentrega/static/js/main.4477e80c.js",
+    "main.js": "/reactentrega/static/js/main.0e27f87d.js",
     "static/js/787.28cb0dcd.chunk.js": "/reactentrega/static/js/787.28cb0dcd.chunk.js",
     "static/media/mesa.jpg": "/reactentrega/static/media/mesa.a628a4bb6f79a4bd9d31.jpg",
+    "static/media/placard.jpg": "/reactentrega/static/media/placard.491e0a315b5c6513b3c9.jpg",
+    "static/media/rack.jpg": "/reactentrega/static/media/rack.cad9bd04d752093b03b6.jpg",
+    "static/media/comoda.jpg": "/reactentrega/static/media/comoda.4d215abdc49b52a4f0a1.jpg",
+    "static/media/lampara pie.jpg": "/reactentrega/static/media/lampara pie.cfbec75ad457c8f7c686.jpg",
     "static/media/sofa.jpg": "/reactentrega/static/media/sofa.8af9e8d5381f4d0bbba5.jpg",
+    "static/media/mesa ratona.jpg": "/reactentrega/static/media/mesa ratona.d6efab0aae7d0aeaddd5.jpg",
+    "static/media/silla.jpg": "/reactentrega/static/media/silla.b2c84caacadca9bb34d8.jpg",
     "index.html": "/reactentrega/index.html",
     "main.a5bfbe08.css.map": "/reactentrega/static/css/main.a5bfbe08.css.map",
-    "main.4477e80c.js.map": "/reactentrega/static/js/main.4477e80c.js.map",
+    "main.0e27f87d.js.map": "/reactentrega/static/js/main.0e27f87d.js.map",
     "787.28cb0dcd.chunk.js.map": "/reactentrega/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5bfbe08.css",
-    "static/js/main.4477e80c.js"
+    "static/js/main.0e27f87d.js"
   ]
 }
