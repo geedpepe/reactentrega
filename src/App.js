@@ -1,22 +1,19 @@
 import React, { useState } from 'react';
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from '../src/Components/cards';
 
 function ColorSchemesExample() {
-
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
     setCartItems([...cartItems, product]);
   };
 
-
-
-
-
+  const calculateTotal = () => {
+    return cartItems.reduce((total, product) => total + product.price, 0);
+  };
 
   return (
     <>
@@ -31,11 +28,14 @@ function ColorSchemesExample() {
         </Container>
       </Navbar>
       <Container>
-        <h1>Productos</h1>
+        <h1>Destacados</h1>
         <Card addToCart={addToCart} />
+        <div className="cart-summary">
+          <h2>Carrito</h2>
+          <p>Cantidad de productos: {cartItems.length}</p>
+          <p>Monto total: ${calculateTotal()}</p>
+        </div>
       </Container>
-  
-  
     </>
   );
 }
