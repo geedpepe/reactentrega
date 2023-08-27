@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/geedpepe/reactentrega/static/css/main.a5bfbe08.css",
+    "main.js": "/geedpepe/reactentrega/static/js/main.c4d6adb4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/geedpepe/reactentrega/static/js/787.28cb0dcd.chunk.js",
+    "static/media/mesa.jpg": "/geedpepe/reactentrega/static/media/mesa.a628a4bb6f79a4bd9d31.jpg",
+    "static/media/sofa.jpg": "/geedpepe/reactentrega/static/media/sofa.8af9e8d5381f4d0bbba5.jpg",
+    "index.html": "/geedpepe/reactentrega/index.html",
+    "main.a5bfbe08.css.map": "/geedpepe/reactentrega/static/css/main.a5bfbe08.css.map",
+    "main.c4d6adb4.js.map": "/geedpepe/reactentrega/static/js/main.c4d6adb4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/geedpepe/reactentrega/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bfbe08.css",
+    "static/js/main.c4d6adb4.js"
+  ]
+}
