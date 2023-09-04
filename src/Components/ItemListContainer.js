@@ -9,7 +9,7 @@ import Silla from "../images/silla.jpg";
 import Placard from "../images/placard.jpg";
 import Lampara from "../images/lampara pie.jpg";
 import mratona from "../images/mesa ratona.jpg";
-import './cards.css';
+import './ItemListContainer.css';
 
 
 
