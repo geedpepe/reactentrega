@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from './Components/ItemListContainer';
-import NavBar from '../src/Components/NavBar'; 
+import NavBar from './Components/NavBar'; 
 
 function ColorSchemesExample() {
   const [cartItems, setCartItems] = useState([]);
