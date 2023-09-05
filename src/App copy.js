@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from './Components/ItemListContainer';
-import Navbar from './Components/Navbar';
-import { Routes, Route } from 'react-router-dom';
-import Home from './views/Home';
-import Pricing from './views/Products';
+import Navbar from './Components/Navbar'; 
 
 function ColorSchemesExample() {
   const [cartItems, setCartItems] = useState([]);
@@ -18,13 +15,9 @@ function ColorSchemesExample() {
   };
 
   return (
-<>
-<Navbar />
+    <>
+      <Navbar /> 
       <Container>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/pricing" element={<Pricing />} />
-        </Routes>
         <h1>Destacados</h1>
         <Card addToCart={addToCart} />
         <div className="cart-summary">
