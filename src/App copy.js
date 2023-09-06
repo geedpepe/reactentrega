@@ -1,33 +1,33 @@
-import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Card from './Components/ItemListContainer';
-import Navbar from './Components/Navbar'; 
+//import React, { useState } from 'react';
+//import Container from 'react-bootstrap/Container';
+//import Card from './Components/ItemListContainer';
+//import Navbar from './Components/Navbar'; 
 
-function ColorSchemesExample() {
-  const [cartItems, setCartItems] = useState([]);
+//function ColorSchemesExample() {
+  //const [cartItems, setCartItems] = useState([]);
 
-  const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
-  };
+  //const addToCart = (product) => {
+    //setCartItems([...cartItems, product]);
+ // };
 
-  const calculateTotal = () => {
-    return cartItems.reduce((total, product) => total + product.price, 0);
-  };
+  //const calculateTotal = () => {
+   // return cartItems.reduce((total, product) => total + product.price, 0);
+//  };
 
-  return (
-    <>
-      <Navbar /> 
-      <Container>
-        <h1>Destacados</h1>
-        <Card addToCart={addToCart} />
-        <div className="cart-summary">
-          <h2>Carrito</h2>
-          <p>Cantidad de productos: {cartItems.length}</p>
-          <p>Monto total: ${calculateTotal()}</p>
-        </div>
-      </Container>
-    </>
-  );
-}
+  //return (
+    //<>
+  //    <Navbar /> 
+    //  <Container>
+      //  <h1>Destacados</h1>
+        //<Card addToCart={addToCart} />
+        //<div className="cart-summary">
+          //<h2>Carrito</h2>
+          //<p>Cantidad de productos: {cartItems.length}</p>
+          //<p>Monto total: ${calculateTotal()}</p>
+        //</div>
+      //</Container>
+    //</>
+//);
+//}
 
-export default ColorSchemesExample;
+//export default ColorSchemesExample;
