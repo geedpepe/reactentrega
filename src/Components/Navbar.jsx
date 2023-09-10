@@ -2,20 +2,24 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import CartWidget from '../Components/CartWidget';
+import { Link } from 'react-router-dom'; 
+import './Navbar.css';
 
-function NavBar() {
+function NavbarComponent({ calculateTotal }) {
   return (
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Tienda Muebles</Navbar.Brand>
+        <Link to="/" className="navbar-brand">Tienda Muebles</Link> 
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Galeria</Nav.Link>
-          <Nav.Link href="#pricing">Trabajos</Nav.Link>
+          <Link to="/" className="nav-link">Home</Link> 
+          <Link to="/gallery" className="nav-link">Comprar</Link> 
+          <Link to="/Contacto" className="nav-link">Contacto</Link> 
         </Nav>
+        <CartWidget calculateTotal={calculateTotal} />
       </Container>
     </Navbar>
   );
 }
 
-export default NavBar;
+export default NavbarComponent;

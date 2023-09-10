@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom'; // Importa Link
 import mesa from "../images/mesa.jpg";
 import sofa from "../images/sofa.jpg";
 import Rack from "../images/rack.jpg";
@@ -54,6 +55,9 @@ function Cards({ addToCart }) {
           <Card.Body>
             <Card.Title>{product.name}</Card.Title>
             <Card.Text>{product.description}</Card.Text>
+            <Link to={`/item/${product.id}`}>
+              <Button variant="primary">Ver Detalles</Button>
+            </Link>
             <Button variant="primary" onClick={() => handleAddToCartClick(product)}>Agregar al carrito</Button>
           </Card.Body>
         </Card>
