@@ -37,7 +37,7 @@ function ItemDetail() {
   }, [itemId]);
 
   return (
-    <div>
+    <div className="product-container">
       {product ? (
         <div>
           <h2>{product.name} </h2>

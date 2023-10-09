@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import { Link } from 'react-router-dom'; // Importa Link
+import { Link } from 'react-router-dom'; 
 import mesa from "../images/mesa.jpg";
 import sofa from "../images/sofa.jpg";
 import Rack from "../images/rack.jpg";
